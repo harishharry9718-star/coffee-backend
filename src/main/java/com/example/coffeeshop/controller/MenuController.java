@@ -19,7 +19,7 @@ import com.example.coffeeshop.repository.MenuRepository;
 
 @RestController
 @RequestMapping("/api/menu")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class MenuController {
 
     @Autowired
